@@ -6,6 +6,21 @@ The **Crop Yield Prediction Dashboard** is an interactive machine learning appli
 
 The application uses **Linear Regression** to estimate crop yield and provides visualizations to explore relationships between agricultural factors and crop production.
 
+#User Manual 
+– Crop Yield Prediction Dashboard
+      - Rainfall (mm): Enter the rainfall amount between 50 and 400 mm.
+      - Temperature (°C): Select the temperature between 10°C and 40°C.
+      - Soil Type: Choose the soil category available in the dataset.
+      - Fertilizer Used: Select 0 for No fertilizer or 1 for Yes, fertilizer used.
+      - Area (hectares): Select the cultivated land area between 1 and 5 hectares.
+      - State: Select the applicable state from the dropdown list.
+      - Predict Yield: Click the button to calculate the estimated crop yield using the machine learning model.
+      - Prediction Result: View the predicted crop yield in tons per hectare.
+      - Crop Condition Analysis: Read the messages about agricultural conditions based on the selected inputs.
+      - Yield Distribution by Soil Type: Explore the distribution of crop yields across selected soil categories.
+      - Rainfall vs Yield: View the relationship between rainfall and crop yield using a scatter plot.
+      - Area vs Yield Density: Explore the density distribution of cultivated area and crop yield.
+
 ## 🚀 Live Demo
 
 **Live Application:** Add your deployed Streamlit URL here.
